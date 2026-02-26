@@ -8,7 +8,7 @@ load_dotenv()
 class PhoneLookup:
     def __init__(self):
         self.api_key = os.getenv("ABSTRACT_API_KEY")
-        self.url = "https://phonevalidation.abstractapi.com/v1/"
+        self.url = "https://phoneintelligence.abstractapi.com/v1/"
 
     def fetch_info(self, number):
         if not self.api_key:
